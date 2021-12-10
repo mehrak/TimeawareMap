@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-12-10T12:37:04.526Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="OgJcCUmwJeRCV5iUo55x" version="15.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-10T12:51:43.890Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="cW1vqqTNjGEeGvKhCfNz" version="15.5.0" type="github">
   <diagram id="5gLsAe_cYLGpIiMFqtlQ" name="Page-1">
     <mxGraphModel dx="1186" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="YAqJxiGJqyGR-3pxUNos-67" value="&lt;b&gt;Elastic Search Kibana cluster&lt;/b&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;sketch=0;fontColor=default;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="1510" y="287" width="250" height="250" as="geometry" />
+          <mxGeometry x="1511" y="287" width="250" height="250" as="geometry" />
         </mxCell>
         <mxCell id="YAqJxiGJqyGR-3pxUNos-2" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.inductors.transformer_2;" vertex="1" parent="1">
           <mxGeometry x="39" y="160" width="64" height="60" as="geometry" />
