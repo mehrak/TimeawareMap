@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-10T10:29:38.271Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="cx5AVm-Ur55DWyig2fLR" version="15.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-10T11:42:18.046Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="VGmBVRtnPXeGtSEz4uC4" version="15.5.0" type="github">
   <diagram id="5gLsAe_cYLGpIiMFqtlQ" name="Page-1">
     <mxGraphModel dx="946" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -23,10 +23,92 @@
           <mxGeometry x="390" y="80" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YAqJxiGJqyGR-3pxUNos-8" value="Authentication Service" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="80" width="120" height="60" as="geometry" />
+          <mxGeometry x="550" y="80" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YAqJxiGJqyGR-3pxUNos-11" value="Signal" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.71;dx=35;notch=0;" vertex="1" parent="1">
           <mxGeometry x="120" y="255" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="YAqJxiGJqyGR-3pxUNos-12" value="Signal Dispatch Service" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YAqJxiGJqyGR-3pxUNos-17" value="" style="endArrow=classic;rounded=0;strokeColor=default;edgeStyle=orthogonalEdgeStyle;fontColor=default;labelBackgroundColor=default;html=1;verticalAlign=middle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="YAqJxiGJqyGR-3pxUNos-6" target="YAqJxiGJqyGR-3pxUNos-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="280" as="sourcePoint" />
+            <mxPoint x="430" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YAqJxiGJqyGR-3pxUNos-25" value="Apache Kafka" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.azure.queue_generic;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="572" y="270" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YAqJxiGJqyGR-3pxUNos-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.32;entryY=1.033;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;verticalAlign=middle;" edge="1" parent="1" source="YAqJxiGJqyGR-3pxUNos-25" target="YAqJxiGJqyGR-3pxUNos-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YAqJxiGJqyGR-3pxUNos-27" value="" style="endArrow=classic;rounded=0;strokeColor=default;edgeStyle=orthogonalEdgeStyle;fontColor=default;labelBackgroundColor=default;html=1;verticalAlign=middle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1.025;exitY=0.4;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="YAqJxiGJqyGR-3pxUNos-12" target="YAqJxiGJqyGR-3pxUNos-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="284.5" as="sourcePoint" />
+            <mxPoint x="560" y="284.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YAqJxiGJqyGR-3pxUNos-31" value="Signal&lt;br&gt;Topic" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=default;" vertex="1" connectable="0" parent="YAqJxiGJqyGR-3pxUNos-27">
+          <mxGeometry x="-0.1158" y="-1" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YAqJxiGJqyGR-3pxUNos-28" value="Configuration Service" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;sketch=0;fontColor=default;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YAqJxiGJqyGR-3pxUNos-29" value="Signal Processing Service" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;sketch=0;fontColor=default;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="736" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YAqJxiGJqyGR-3pxUNos-30" value="" style="endArrow=classic;rounded=0;strokeColor=default;edgeStyle=orthogonalEdgeStyle;fontColor=default;labelBackgroundColor=default;html=1;verticalAlign=middle;exitX=1;exitY=0.51;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="YAqJxiGJqyGR-3pxUNos-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="698" y="285.29999999999995" as="sourcePoint" />
+            <mxPoint x="736" y="285" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YAqJxiGJqyGR-3pxUNos-32" value="Signal&lt;br&gt;Topic" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=default;" vertex="1" connectable="0" parent="YAqJxiGJqyGR-3pxUNos-30">
+          <mxGeometry x="-0.2846" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YAqJxiGJqyGR-3pxUNos-33" value="Apache Kafka" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.azure.queue_generic;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="746" y="390" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YAqJxiGJqyGR-3pxUNos-34" value="Green&lt;br&gt;Signal" style="endArrow=classic;rounded=0;strokeColor=default;edgeStyle=orthogonalEdgeStyle;fontColor=default;labelBackgroundColor=default;html=1;verticalAlign=middle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="754" y="320" as="sourcePoint" />
+            <mxPoint x="754" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YAqJxiGJqyGR-3pxUNos-35" value="" style="endArrow=classic;rounded=0;strokeColor=default;edgeStyle=orthogonalEdgeStyle;fontColor=default;labelBackgroundColor=default;html=1;verticalAlign=middle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="795" y="321" as="sourcePoint" />
+            <mxPoint x="795" y="391" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="795" y="341" />
+              <mxPoint x="795" y="341" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YAqJxiGJqyGR-3pxUNos-37" value="Amber&lt;br&gt;Signal" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=default;" vertex="1" connectable="0" parent="YAqJxiGJqyGR-3pxUNos-35">
+          <mxGeometry x="-0.0571" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YAqJxiGJqyGR-3pxUNos-36" value="" style="endArrow=classic;rounded=0;strokeColor=default;edgeStyle=orthogonalEdgeStyle;fontColor=default;labelBackgroundColor=default;html=1;verticalAlign=middle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="841" y="321" as="sourcePoint" />
+            <mxPoint x="841" y="391" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="841" y="341" />
+              <mxPoint x="841" y="341" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YAqJxiGJqyGR-3pxUNos-38" value="Tranformer&lt;br&gt;Down" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=default;" vertex="1" connectable="0" parent="YAqJxiGJqyGR-3pxUNos-36">
+          <mxGeometry x="-0.2" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
