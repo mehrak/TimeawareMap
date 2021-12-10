@@ -1,1 +1,34 @@
-<mxfile host="app.diagrams.net" modified="2021-12-10T10:16:38.189Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" version="15.5.0" etag="ZdplaXYN2AGnWuuOb5gZ" type="github"><diagram id="5gLsAe_cYLGpIiMFqtlQ">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-12-10T10:29:38.271Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="cx5AVm-Ur55DWyig2fLR" version="15.5.0" type="github">
+  <diagram id="5gLsAe_cYLGpIiMFqtlQ" name="Page-1">
+    <mxGraphModel dx="946" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YAqJxiGJqyGR-3pxUNos-2" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.inductors.transformer_2;" vertex="1" parent="1">
+          <mxGeometry x="39" y="160" width="64" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YAqJxiGJqyGR-3pxUNos-3" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.inductors.transformer_2;" vertex="1" parent="1">
+          <mxGeometry x="39" y="240" width="64" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YAqJxiGJqyGR-3pxUNos-4" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.inductors.transformer_2;" vertex="1" parent="1">
+          <mxGeometry x="39" y="320" width="64" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YAqJxiGJqyGR-3pxUNos-5" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.inductors.transformer_2;" vertex="1" parent="1">
+          <mxGeometry x="39" y="400" width="64" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YAqJxiGJqyGR-3pxUNos-6" value="Load Balancer / API Gateway" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YAqJxiGJqyGR-3pxUNos-7" value="Service Discovery" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YAqJxiGJqyGR-3pxUNos-8" value="Authentication Service" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YAqJxiGJqyGR-3pxUNos-11" value="Signal" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.71;dx=35;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="255" width="100" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
